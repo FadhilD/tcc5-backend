@@ -1,8 +1,8 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize('notes1','root', '',{
+const db = new Sequelize('RECOVER_YOUR_DATA','root', '',{
 
-    host: 'localhost',
+    host: '35.202.137.184',
     dialect: 'mysql'
 } );
 
