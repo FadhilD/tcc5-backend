@@ -1,0 +1,30 @@
+###
+GET http://localhost:5000/notes
+
+###
+GET http://localhost:5000/notes/3
+
+###
+POST  http://localhost:5000/notes
+Content-Type: application/json
+
+{
+    "matakuliah": "Prak TCC",
+    "judul": "export sql storage",
+    "isi": "post tanpa xampp dengan menggunakan ip cloud storage",
+    "deadline": ""
+}
+
+###
+PATCH  http://localhost:5000/notes/14
+Content-Type: application/json
+
+{
+    "matakuliah": "Prak TCC",
+    "judul": "edit sql storage",
+    "isi": "edit tanpa xampp dengan menggunakan ip cloud storage",
+    "deadline": ""
+}
+
+###
+DELETE http://localhost:5000/notes/14
